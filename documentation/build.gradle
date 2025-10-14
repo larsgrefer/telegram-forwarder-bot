@@ -1,0 +1,11 @@
+plugins {
+    id 'io.freefair.aggregate-javadoc' version '8.14.2'
+}
+
+dependencies {
+    javadoc project(':telegram-forwarder-bot')
+    javadoc project(':telegram-forwarder-starter')
+    javadoc project(':telegram-forwarder-starter-logging')
+    javadoc project(':telegram-forwarder-starter-thymeleaf')
+    javadoc project(':telegram-forwarder-starter-reddit')
+}
